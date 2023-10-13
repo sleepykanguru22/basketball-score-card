@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="card">
+      <div class="container">
+        <div>
+          <h3>HOME</h3>
+          <div id="home" class="score">0</div>
+          <div class="points">
+            <button onclick="plusOne('home')">+1</button>
+            <button onclick="plusTwo('home')">+2</button>
+            <button onclick="plusThree('home')">+3</button>
+          </div>
+        </div>
+        <div>
+          <h3>GUEST</h3>
+          <div id="guest" class="score">0</div>
+          <div class="points">
+            <button onclick="plusOne('guest')">+1</button>
+            <button onclick="plusTwo('guest')">+2</button>
+            <button onclick="plusTwo('guest')">+3</button>
+          </div>
+        </div>
+        <button id="reset" onclick="reset()">reset</button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

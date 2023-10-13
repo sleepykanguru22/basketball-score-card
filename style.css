@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #c6cfe8;
 }
 .card {
   display: flex;
